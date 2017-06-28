@@ -8,7 +8,7 @@
   <link rel="dns-prefetch" href="http://codechenblog.github.io">
   <title>Blog test | Klaus‘s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="keywords" content="旅游,博客教程">
+  <meta name="keywords" content="博客教程">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Blog test">
 <meta property="og:url" content="http://codechenblog.github.io/2017/06/28/test2/index.html">
@@ -16,7 +16,7 @@
 <meta property="og:image" content="https://github.com/codechenblog/codechenblog.github.io/blob/master/2017/06/28/test2/test3.JPG?raw=true">
 <meta property="og:image" content="https://github.com/codechenblog/codechenblog.github.io/blob/master/2017/06/28/test2/test3.JPG?raw=true">
 <meta property="og:image" content="https://github.com/codechenblog/codechenblog.github.io/blob/master/2017/06/28/test2/test3.JPG?raw=true">
-<meta property="og:updated_time" content="2017-06-28T12:16:49.000Z">
+<meta property="og:updated_time" content="2017-06-28T12:28:55.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Blog test">
 <meta name="twitter:image" content="https://github.com/codechenblog/codechenblog.github.io/blob/master/2017/06/28/test2/test3.JPG?raw=true">
@@ -168,16 +168,8 @@
 <blockquote>
 <p>在Mac下直接双击打开图片<br>  Tools-&gt;Adjust Size<br>  建议width 20cm左右</p>
 </blockquote>
-<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>正文blabla</p>
-<p>更多的正文blabla..</p>
-<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>标题二的正文blabla</p>
-<p>引用的格式是这样的：《天净沙.秋思》</p>
-<blockquote>
-<p>古道西风瘦马<br>  夕阳西下，断肠人在天涯<br>乌啦啦</p>
-</blockquote>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>我应该不会在这边存代码吧，为了完整性。。。<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;ctype.h&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;unistd.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span> <span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> **argv)</span></span></div><div class="line">&#123;</div><div class="line">  <span class="keyword">int</span> aflag = <span class="number">0</span>;</div><div class="line">  <span class="keyword">int</span> bflag = <span class="number">0</span>;</div><div class="line">  <span class="keyword">char</span> *cvalue = <span class="literal">NULL</span>;</div><div class="line">  <span class="keyword">int</span> index;</div><div class="line">  <span class="keyword">int</span> c;</div><div class="line"></div><div class="line">  opterr = <span class="number">0</span>;</div><div class="line"></div><div class="line">  <span class="keyword">while</span> ((c = getopt (argc, argv, <span class="string">"abc:"</span>)) != <span class="number">-1</span>)</div><div class="line">    <span class="keyword">switch</span> (c)</div><div class="line">      &#123;</div><div class="line">      <span class="keyword">case</span> <span class="string">'a'</span>:</div><div class="line">        aflag = <span class="number">1</span>;</div><div class="line">        <span class="keyword">break</span>;</div><div class="line">      <span class="keyword">case</span> <span class="string">'b'</span>:</div><div class="line">        bflag = <span class="number">1</span>;</div><div class="line">        <span class="keyword">break</span>;</div><div class="line">      <span class="keyword">case</span> <span class="string">'c'</span>:</div><div class="line">        cvalue = optarg;</div><div class="line">        <span class="keyword">break</span>;</div><div class="line">      <span class="keyword">case</span> <span class="string">'?'</span>:</div><div class="line">        <span class="keyword">if</span> (optopt == <span class="string">'c'</span>)</div><div class="line">          <span class="built_in">fprintf</span> (<span class="built_in">stderr</span>, <span class="string">"Option -%c requires an argument.\n"</span>, optopt);</div><div class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (<span class="built_in">isprint</span> (optopt))</div><div class="line">          <span class="built_in">fprintf</span> (<span class="built_in">stderr</span>, <span class="string">"Unknown option `-%c'.\n"</span>, optopt);</div><div class="line">        <span class="keyword">else</span></div><div class="line">          <span class="built_in">fprintf</span> (<span class="built_in">stderr</span>,</div><div class="line">                   <span class="string">"Unknown option character `\\x%x'.\n"</span>,</div><div class="line">                   optopt);</div><div class="line">        <span class="keyword">return</span> <span class="number">1</span>;</div><div class="line">      <span class="keyword">default</span>:</div><div class="line">        <span class="built_in">abort</span> ();</div><div class="line">      &#125;</div><div class="line"></div><div class="line">  <span class="built_in">printf</span> (<span class="string">"aflag = %d, bflag = %d, cvalue = %s\n"</span>,</div><div class="line">          aflag, bflag, cvalue);</div><div class="line"></div><div class="line">  <span class="keyword">for</span> (index = optind; index &lt; argc; index++)</div><div class="line">    <span class="built_in">printf</span> (<span class="string">"Non-option argument %s\n"</span>, argv[index]);</div><div class="line">  <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>学习类的博客目前还没决定具体用哪个。</p>
-<p>THE END.<br>2017.6.28</p>
+<h2 id="那以上图片地址是如何得到的呢"><a href="#那以上图片地址是如何得到的呢" class="headerlink" title="那以上图片地址是如何得到的呢"></a>那以上图片地址是如何得到的呢</h2><p>我是先把图片放到：xx.io/source/_posts/test2文件夹中<br>然后就上传图片到Github:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo g</div><div class="line">hexo d</div></pre></td></tr></table></figure></p>
+<p>然后打开Github打开找到对应的文件夹（test2）中的图片，复制浏览器中的地址</p>
 
       
 
@@ -190,10 +182,6 @@
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">旅游</a>
-        		</li>
-      		 
         		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">博客教程</a>
         		</li>
@@ -298,15 +286,11 @@ return o(t,i(n),arguments.length<3?void 0:u(arguments[2]))}})},function(t,n,r){v
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">生活</a>
+                <a href="javascript:void(0)" class="js-tag color5">博客教程</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">旅游</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">博客教程</a>
               </li>
             
             <div class="clearfix"></div>
