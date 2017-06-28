@@ -18,7 +18,7 @@
 <meta property="og:image" content="https://github.com/codechenblog/codechenblog.github.io/blob/master/2017/06/28/test2/test3.JPG?raw=true">
 <meta property="og:image" content="https://github.com/codechenblog/codechenblog.github.io/blob/master/2017/06/28/test2/test3.JPG?raw=true">
 <meta property="og:image" content="https://github.com/codechenblog/codechenblog.github.io/blob/master/2017/06/28/test2/test3.JPG?raw=true">
-<meta property="og:updated_time" content="2017-06-28T12:07:24.000Z">
+<meta property="og:updated_time" content="2017-06-28T12:13:31.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Blog test">
 <meta name="twitter:description" content="图文无关，用于测试(图为北大图书馆前) 注意：每次创建一个blog时 比如使用命令：hexo new “blog_test”以上命令会在xx.io/source/_posts 目录中生成两个文件：blog_test.md 和文件夹blog_test其中blog_test.md 用于编写blog，遵循MarkDown语法其中blog_test文件夹可以存放该blog所需的文件，如图片等">
@@ -162,9 +162,11 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="https://github.com/codechenblog/codechenblog.github.io/blob/master/2017/06/28/test2/test3.JPG?raw=true" width="50%" height="50%"><br><img src="https://github.com/codechenblog/codechenblog.github.io/blob/master/2017/06/28/test2/test3.JPG?raw=true" alt=""><br><img src="https://github.com/codechenblog/codechenblog.github.io/blob/master/2017/06/28/test2/test3.JPG?raw=true" alt=""><br>图文无关，用于测试(图为北大图书馆前)</p>
-<p>注意：每次创建一个blog时 比如使用命令：hexo new “blog_test”<br>以上命令会在xx.io/source/_posts 目录中生成两个文件：blog_test.md 和文件夹blog_test<br>其中blog_test.md 用于编写blog，遵循MarkDown语法<br>其中blog_test文件夹可以存放该blog所需的文件，如图片等<br><a id="more"></a><br>比如本blog我用hexo new “test2”生成的<br>本文档的名字就是：test2.md<br>以上图片放在test2文件夹中，文件名字为IMG_0634.JPG<br>于是有以上两种放置图片的方式，方式一是用html的语法，直接显示图的一半（因为：width=”50%” height=”50%”）<br>该方法的结果就是不管是用pc端还是移动端，都只显示图床的一半大小</p>
-<p>第二种放置图片的方式为MarkDown语法，这么放的话由于MarkDown不支持图片by design<br>所以我是直接图片先调整大小再放到test文件夹里面的<br>调整方法：</p>
+        <p><img src="https://github.com/codechenblog/codechenblog.github.io/blob/master/2017/06/28/test2/test3.JPG?raw=true" width="60%" height="60%"><br><img src="https://github.com/codechenblog/codechenblog.github.io/blob/master/2017/06/28/test2/test3.JPG?raw=true" alt=""><br><img src="https://github.com/codechenblog/codechenblog.github.io/blob/master/2017/06/28/test2/test3.JPG?raw=true" alt=""><br>图文无关，用于测试(图为北大图书馆前)</p>
+<p>注意：每次创建一个blog时 比如使用命令：hexo new “blog_test”<br>以上命令会在xx.io/source/_posts 目录中生成两个文件：blog_test.md 和文件夹blog_test<br>其中blog_test.md 用于编写blog，遵循MarkDown语法<br>其中blog_test文件夹可以存放该blog所需的文件，如图片等<br><a id="more"></a><br>比如本blog我用hexo new “test2”生成的<br>本文档的名字就是：test2.md<br>以上图片放在test2文件夹中，文件名字为test3.JPG<br>于是有以上两种放置图片的方式，方式一是用html的语法，直接按照比例现实图片（因为：width=”60%” height=”60%”）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;img src=&quot;https://github.com/codechenblog/codechenblog.github.io/blob/master/2017/06/28/test2/test3.JPG?raw=true&quot; width=&quot;60%&quot; height=&quot;60%&quot;&gt;</div></pre></td></tr></table></figure></p>
+<p>该方法的结果就是不管是用pc端还是移动端，都按照比例现实图片</p>
+<p>第二种放置图片的方式为MarkDown语法，这么放的话由于MarkDown不支持图片by design<br>所以我是直接图片先调整大小再放到test文件夹里面的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![](https://github.com/codechenblog/codechenblog.github.io/blob/master/2017/06/28/test2/test3.JPG?raw=true)</div></pre></td></tr></table></figure></p>
+<p>这个的好处是在移动端观看图片时，图片时适应屏幕的大小，不会显得太小<br>调整方法：</p>
 <blockquote>
 <ol>
 <li>在Mac下直接双击打开图片<ol>
