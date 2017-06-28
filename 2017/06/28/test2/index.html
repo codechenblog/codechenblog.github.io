@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="Klaus‘s Blog">
 <meta property="og:description" content="图文无关，用于测试(图为北大图书馆前) 标题正文blabla">
 <meta property="og:image" content="https://github.com/codechenblog/codechenblog.github.io/blob/master/2017/06/28/test2/IMG_0634.JPG?raw=true">
-<meta property="og:updated_time" content="2017-06-28T07:33:11.000Z">
+<meta property="og:updated_time" content="2017-06-28T07:39:38.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Blog test">
 <meta name="twitter:description" content="图文无关，用于测试(图为北大图书馆前) 标题正文blabla">
@@ -165,11 +165,24 @@
 <h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>正文blabla</p>
 <a id="more"></a>
 <p>更多的正文blabla..</p>
-<h2 id="标题-1"><a href="#标题-1" class="headerlink" title="标题"></a>标题</h2><p>标题二的正文blabla</p>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>标题二的正文blabla</p>
 <p>引用的格式是这样的：《天净沙.秋思》</p>
 <blockquote>
 <p>古道西风瘦马<br>  夕阳西下，断肠人在天涯<br>乌啦啦</p>
 </blockquote>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>我应该不会在这边存代码吧，为了完整性。。。<br>‘’’</p>
+<p>#include <ctype.h></ctype.h></p>
+<p>#include <stdio.h></stdio.h></p>
+<p>#include <stdlib.h></stdlib.h></p>
+<p>#include <unistd.h></unistd.h></p>
+<p>int<br>main (int argc, char <em>*argv)<br>{<br>  int aflag = 0;<br>  int bflag = 0;<br>  char </em>cvalue = NULL;<br>  int index;<br>  int c;</p>
+<p>  opterr = 0;</p>
+<p>  while ((c = getopt (argc, argv, “abc:”)) != -1)<br>    switch (c)<br>      {<br>      case ‘a’:<br>        aflag = 1;<br>        break;<br>      case ‘b’:<br>        bflag = 1;<br>        break;<br>      case ‘c’:<br>        cvalue = optarg;<br>        break;<br>      case ‘?’:<br>        if (optopt == ‘c’)<br>          fprintf (stderr, “Option -%c requires an argument.\n”, optopt);<br>        else if (isprint (optopt))<br>          fprintf (stderr, “Unknown option <code>-%c&#39;.\n&quot;, optopt);
+        else
+          fprintf (stderr,
+                   &quot;Unknown option character</code>\x%x’.\n”,<br>                   optopt);<br>        return 1;<br>      default:<br>        abort ();<br>      }</p>
+<p>  printf (“aflag = %d, bflag = %d, cvalue = %s\n”,<br>          aflag, bflag, cvalue);</p>
+<p>  for (index = optind; index &lt; argc; index++)<br>    printf (“Non-option argument %s\n”, argv[index]);<br>  return 0;<br>}<br>‘’’<br>getopt的用法。</p>
 <p>THE END.<br>2017.6.28</p>
 
       
